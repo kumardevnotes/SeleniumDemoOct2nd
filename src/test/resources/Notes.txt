@@ -1,0 +1,15 @@
+git clone https://github.com/kumardevnotes/SeleniumDemoOct2nd.git
+
+How to push code from local to github using git version control commands ?
+git status
+git add --all
+git commit -m "added selenium script"
+git push
+
+
+How to pull code from github to local using git version control commands ?
+
+git status
+git reset --hard
+git fetch origin
+git pull
