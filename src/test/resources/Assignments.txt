@@ -1,0 +1,4 @@
+Ruby: Setup git and push localmaven project
+Sanaya: Create a new Java class and create 2 custom methods
+       method1: displayEmpID()
+       method2: displayEmpSalary()
