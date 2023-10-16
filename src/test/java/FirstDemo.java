@@ -9,26 +9,25 @@ public class FirstDemo {
 
 	public static void main(String[] args) {
 		System.out.println("Hello Everyone!");
-		//calling a method in java
+		// calling a method in java
 		displayName();
-		displayStatus();
+		//displayStatus();
 	}
-	
-	//creating or declaring a user defined method in java
+
+	// creating or declaring a user defined method in java
 	public static void displayName() {
 		System.out.println("John Legend");
 	}
-	
+
 	public static void displayStatus() {
 		int age = 10;
-		if(age >= 18) { // 10 >= 18 --> false
+		if (age >= 18) { // 10 >= 18 --> false
 			System.out.println("Its a major");
-		}
-		else {
+		} else {
 			System.out.println("Its a minor");
 		}
 	}
-	
-	//System.out.println("I am an error. I will not be shown on console");
+
+	// System.out.println("I am an error. I will not be shown on console");
 
 }
