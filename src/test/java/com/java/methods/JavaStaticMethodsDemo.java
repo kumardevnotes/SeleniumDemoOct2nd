@@ -4,7 +4,8 @@ public class JavaStaticMethodsDemo {
 
 	public static void main(String[] args) {
 		System.out.println("demo on Java static methods");
-		// calling methods
+		
+		// calling methods directly without class object
 		
 		JavaStaticMethodsDemo.displayEmpName();
 		displayEmpName();
