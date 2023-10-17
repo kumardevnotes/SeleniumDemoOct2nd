@@ -24,3 +24,4 @@ ctrl + v --> to paste the code
 ctrl + z --> to revert the most recent change in your java file or editor
 ctrl + f --> to search for some key in the editor or java file
 ctrl + spacebar ---> after typing sysout, it will add System.out.println()
+ctrl + / ---> comment/uncomment
