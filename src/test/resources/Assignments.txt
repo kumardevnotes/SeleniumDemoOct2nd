@@ -2,3 +2,10 @@ Ruby: Setup git and push localmaven project
 Sanaya: Create a new Java class and create 2 custom methods
        method1: displayEmpID()
        method2: displayEmpSalary()
+       
+Assignment 23rd Oct:
+String name  = "John Legened";
+
+print the above string in reverse without using in-built java fucntions
+OP: denegeL nhoJ
+charAt() and forloop

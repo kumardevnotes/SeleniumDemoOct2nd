@@ -1,0 +1,10 @@
+Exceptions are of 2 categories:
+
+static or compile time exceptions (early binding exception)
+FileNotFoundException
+IOException
+
+
+dynamic or run time exceptions (late binding exception)
+NullPointerException
+ArithmeticException
