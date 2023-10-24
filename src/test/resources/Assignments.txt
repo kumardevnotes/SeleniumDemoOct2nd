@@ -9,3 +9,6 @@ String name  = "John Legened";
 print the above string in reverse without using in-built java fucntions
 OP: denegeL nhoJ
 charAt() and forloop
+
+print the string in reverse
+Biggest value in the int array or smallest value in the int array
