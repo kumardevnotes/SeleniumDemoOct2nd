@@ -8,3 +8,8 @@ IOException
 dynamic or run time exceptions (late binding exception)
 NullPointerException
 ArithmeticException
+
+final keyword in 3 places:
+1. at class level
+2. Method level 
+3. at variable level
