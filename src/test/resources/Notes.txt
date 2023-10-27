@@ -17,3 +17,9 @@ final keyword in 3 places:
 this and super keywords in java ?
 
 what are access specifiers in java ?
+
+	*********************************	
+	
+File IO Operations --> how to read and write into Text/Properties/Excel documents ?
+
+Ex1: Text document read write using java IO operations
