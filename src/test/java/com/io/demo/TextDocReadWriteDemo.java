@@ -14,7 +14,7 @@ public class TextDocReadWriteDemo {
 		String rootPath = System.getProperty("user.dir");
 		
 		//to load the file into File Obj called myFile
-		File myFile = new File(rootPath + "//src/test/resources/TestDoc.txt");
+		File myFile = new File(rootPath + "//src/test/resources/Assignments.txt");
 		
 		//To read data from the file loaded in line 16
 		BufferedReader bfr = new BufferedReader(new FileReader(myFile));
