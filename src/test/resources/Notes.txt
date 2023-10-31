@@ -23,3 +23,11 @@ what are access specifiers in java ?
 File IO Operations --> how to read and write into Text/Properties/Excel documents ?
 
 Ex1: Text document read write using java IO operations
+
+
+//
+create first colelction with 6 values
+create second colletion with only 2 values
+then use first.retainAll(secondcolle)
+sysout first collection
+then cross check

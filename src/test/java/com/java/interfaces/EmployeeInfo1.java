@@ -1,14 +1,23 @@
 package com.java.interfaces;
 
-public class EmployeeInfo1 implements EmployerInfo {
+public class EmployeeInfo1 implements EmployerInfo { // class implements interface
 
 	public static void main(String[] args) {
 		EmployeeInfo1 empInfo1 = new EmployeeInfo1();
+		
 		empInfo1.displayEmpName();
 		empInfo1.displayEmpId();
+		
 		empInfo1.displayCompName();
 		System.out.println(empInfo1.getCompanyId());
 		empInfo1.displayCompanyShareValue(120);
+		
+		EmployerInfo employerObj = new EmployeeInfo1(); //Creating a class obj and assigning this to interface object as a reference. So using this interface object, you can call only interface level methods but not class methods
+		
+		employerObj.displayCompName();
+		employerObj.displayCompanyShareValue(100);
+		System.out.println(employerObj.getCompanyId());
+		
 	}
 	
 	//Concrete methods in class
