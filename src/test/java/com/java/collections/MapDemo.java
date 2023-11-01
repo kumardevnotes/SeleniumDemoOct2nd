@@ -10,8 +10,7 @@ public class MapDemo {
 		// empName = John, empId = 1122, empGender = 'M' empSal = 5000, empMarStatus =
 		// false
 		// Map is dynamic in size same as (List and Set)
-		// In Map, we store info in the form of key and value pair where key should be
-		// unique but value May/MayNotbe
+		// In Map, we store info in the form of key and value pair where key should be unique but value May/MayNotbe
 
 		Map<String, String> myEmpRecord = new HashMap<String, String>(); // HashMap implements Map
 
