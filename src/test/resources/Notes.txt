@@ -31,3 +31,5 @@ create second colletion with only 2 values
 then use first.retainAll(secondcolle)
 sysout first collection
 then cross check
+
+https://www.speaklanguages.com
