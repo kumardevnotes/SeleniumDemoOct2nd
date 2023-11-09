@@ -163,6 +163,13 @@ How to develop automation scripts in real time ?
 6. implement POM (Page Object model) -  methods, locators
 7. Develop TestNG testcases by adding valid assertions
 8. Fail or Pass the Testcase and verify the results
+
+
+
+2 things
+
+1. In locating elements in the DOM uniquely
+2. In developing the script logic to handle multiple scenarios in a single script
             
             
             

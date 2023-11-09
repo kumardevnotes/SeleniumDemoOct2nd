@@ -48,8 +48,6 @@ public class SeleniumDemo {
 		
 		driver.navigate().refresh();
 		Thread.sleep(2000);
-		
-		
 
 		// To close the browser
 		driver.close();
