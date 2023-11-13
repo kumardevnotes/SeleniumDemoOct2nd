@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
-public class SeleniumDemo2 {
+public class SeleniumLocatorsDemo {
 
 	/*
 	 * :: Selenium Locators ::
