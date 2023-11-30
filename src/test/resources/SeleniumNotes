@@ -133,7 +133,8 @@ SelectByIndex()-->
 SelectBYValue()-->
 SelectByVisibleText()-->
 capture screenshot
-//Implicit and ExplicitWaits
+
+//Implicit and ExplicitWaits ****
 
    ::
    
