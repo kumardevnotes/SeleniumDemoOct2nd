@@ -1,15 +1,13 @@
 package com.selenium.demo;
 
-import java.io.File;
-import java.io.IOException;
+
+import java.time.Duration;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SeleniumMethodsDemo7 {
 
@@ -17,23 +15,24 @@ public class SeleniumMethodsDemo7 {
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		
+		//pageLoadTimeout
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(300));
 		driver.get("https://www.speaklanguages.com");
-
-		// Fullpage screenshot
-		String rootPath = System.getProperty("user.dir");
-		// Call getScreenshotAs method to create image file
-		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		// create a destination path
-		File dest = new File(rootPath + "//Screenshots/" + "myScreenshot" + ".png");
-		// Copying from source to destination path
-		FileHandler.copy(src, dest);
-
-		// Element level screenshot
-		WebElement logoElement = driver.findElement(By.id("logo"));
-		File src2 = logoElement.getScreenshotAs(OutputType.FILE);
-		File dest2 = new File(rootPath + "//Screenshots/speakLanguages_logo" + ".png");
-		FileHandler.copy(src2, dest2);
-
+		
+		//Before throwing timeout exception, it will wait 60 seconds to locate the element on the page
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+		
+		
+		// explicit wait
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(20));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Sign up")));
+		
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("login_button")));
+		driver.findElement(By.id("login_button")).click();
+		
+		wait.until(ExpectedConditions.alertIsPresent());
+		
 		Thread.sleep(2000);
 		driver.quit();
 	}
