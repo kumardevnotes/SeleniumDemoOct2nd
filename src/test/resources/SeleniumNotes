@@ -156,6 +156,7 @@ How to develop automation scripts in real time ?
 8. Fail or Pass the Testcase and verify the results
 
 
+=== Testing Framework =======
 
 2 things
 
@@ -163,5 +164,19 @@ How to develop automation scripts in real time ?
 2. In developing the script logic to handle multiple scenarios in a single script
             
             
-            
+ TestNG - Test Next Generation - Testing framework
+
+-  Develop new TCs
+- Orgnige your Testcases
+Organize the test data
+- grouping of  TCs
+ -  P1 - 50 P2 - 50
+Reports  -  90 Passes 10 failed
+
+TestNG and JUnit
+
+NUnit and XUnit and MSTest Unit 
+
+Pytest
+     
 
