@@ -178,5 +178,16 @@ TestNG and JUnit
 NUnit and XUnit and MSTest Unit 
 
 Pytest
+
+
+https://www.tutorialspoint.com/testng/testng_execution_procedure.htm
+
+@Test
+@DataProvider
+@BeforeMethod
+@AfterMethod
+
+@BeforeClass
+@AfterClass
      
 
