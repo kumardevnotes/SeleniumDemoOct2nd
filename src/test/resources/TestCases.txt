@@ -6,7 +6,7 @@ Steps to follow:
 2. Verify the app logo, search field, search button, login link, signup link and footer section
 
 
-TestCase2: Verify signup
+TestCase2: Verify signup (java faker library)
 
 Steps to follow:
 1. Launch the application in Chrome -https://www.speaklanguages.com/
