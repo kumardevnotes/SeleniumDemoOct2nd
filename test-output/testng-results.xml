@@ -1,61 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-05T22:51:48 IST" name="Default suite" finished-at="2023-12-05T22:51:48 IST" duration-ms="128">
+  <suite started-at="2023-12-06T23:05:40 IST" name="DemoSuite" finished-at="2023-12-06T23:06:17 IST" duration-ms="37244">
     <groups>
     </groups>
-    <test started-at="2023-12-05T22:51:48 IST" name="Default test" finished-at="2023-12-05T22:51:48 IST" duration-ms="128">
-      <class name="com.testng.demo.TestNgDemoWithAllAnnotations">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.testng.demo.TestNgDemoWithAllAnnotations@4722ef0c]" started-at="2023-12-05T22:51:48 IST" name="beforeSuite" finished-at="2023-12-05T22:51:48 IST" duration-ms="34" status="PASS">
+    <test started-at="2023-12-06T23:05:40 IST" name="AppLaunchtests" finished-at="2023-12-06T23:06:17 IST" duration-ms="37244">
+      <class name="com.app.tests.AppTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.app.tests.AppTests@496bc455]" started-at="2023-12-06T23:05:40 IST" name="setup" finished-at="2023-12-06T23:05:49 IST" duration-ms="9307" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testng.demo.TestNgDemoWithAllAnnotations@4722ef0c]" started-at="2023-12-05T22:51:48 IST" name="beforeTest" finished-at="2023-12-05T22:51:48 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePage()[pri:0, instance:com.app.tests.AppTests@496bc455]" started-at="2023-12-06T23:05:49 IST" name="verifyHomePage" finished-at="2023-12-06T23:05:50 IST" duration-ms="664" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testng.demo.TestNgDemoWithAllAnnotations@4722ef0c]" started-at="2023-12-05T22:51:48 IST" name="beforeClass" finished-at="2023-12-05T22:51:48 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.app.tests.AppTests@496bc455]" started-at="2023-12-06T23:05:50 IST" name="tearDown" finished-at="2023-12-06T23:05:51 IST" duration-ms="1441" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.demo.TestNgDemoWithAllAnnotations@4722ef0c]" started-at="2023-12-05T22:51:48 IST" name="beforeMethod" finished-at="2023-12-05T22:51:48 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.app.tests.AppTests@496bc455]" started-at="2023-12-06T23:05:51 IST" name="setup" finished-at="2023-12-06T23:05:57 IST" duration-ms="6307" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="firstTest()[pri:0, instance:com.testng.demo.TestNgDemoWithAllAnnotations@4722ef0c]" started-at="2023-12-05T22:51:48 IST" name="firstTest" finished-at="2023-12-05T22:51:48 IST" duration-ms="10" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoggedInUsername()[pri:0, instance:com.app.tests.AppTests@496bc455]" started-at="2023-12-06T23:05:57 IST" name="verifyLoggedInUsername" finished-at="2023-12-06T23:05:58 IST" duration-ms="1086" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.demo.TestNgDemoWithAllAnnotations@4722ef0c]" started-at="2023-12-05T22:51:48 IST" name="afterMethod" finished-at="2023-12-05T22:51:48 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- verifyLoggedInUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.app.tests.AppTests@496bc455]" started-at="2023-12-06T23:05:58 IST" name="tearDown" finished-at="2023-12-06T23:06:00 IST" duration-ms="1198" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.demo.TestNgDemoWithAllAnnotations@4722ef0c]" started-at="2023-12-05T22:51:48 IST" name="beforeMethod" finished-at="2023-12-05T22:51:48 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.app.tests.AppTests@496bc455]" started-at="2023-12-06T23:06:00 IST" name="setup" finished-at="2023-12-06T23:06:06 IST" duration-ms="6572" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="secondTest()[pri:0, instance:com.testng.demo.TestNgDemoWithAllAnnotations@4722ef0c]" started-at="2023-12-05T22:51:48 IST" name="secondTest" finished-at="2023-12-05T22:51:48 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="verifySignup()[pri:0, instance:com.app.tests.AppTests@496bc455]" started-at="2023-12-06T23:06:06 IST" name="verifySignup" finished-at="2023-12-06T23:06:16 IST" duration-ms="9461" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- secondTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.demo.TestNgDemoWithAllAnnotations@4722ef0c]" started-at="2023-12-05T22:51:48 IST" name="afterMethod" finished-at="2023-12-05T22:51:48 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- verifySignup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.app.tests.AppTests@496bc455]" started-at="2023-12-06T23:06:16 IST" name="tearDown" finished-at="2023-12-06T23:06:17 IST" duration-ms="1133" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testng.demo.TestNgDemoWithAllAnnotations@4722ef0c]" started-at="2023-12-05T22:51:48 IST" name="afterClass" finished-at="2023-12-05T22:51:48 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testng.demo.TestNgDemoWithAllAnnotations@4722ef0c]" started-at="2023-12-05T22:51:48 IST" name="afterTest" finished-at="2023-12-05T22:51:48 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.testng.demo.TestNgDemoWithAllAnnotations@4722ef0c]" started-at="2023-12-05T22:51:48 IST" name="afterSuite" finished-at="2023-12-05T22:51:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.testng.demo.TestNgDemoWithAllAnnotations -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.app.tests.AppTests -->
+    </test> <!-- AppLaunchtests -->
+  </suite> <!-- DemoSuite -->
 </testng-results>

@@ -1,24 +1,30 @@
-Application:  https://www.speaklanguages.com/
+Application:  https://www.speaklanguages.com
 
-TestCase1: Verify homepage
-Steps to follow:
-1. Launch the application in Chrome -https://www.speaklanguages.com/
-2. Verify the app logo, search field, search button, login link, signup link and footer section
-
-
-TestCase2: Verify signup (java faker library)
-
-Steps to follow:
-1. Launch the application in Chrome -https://www.speaklanguages.com/
-2. Launch signup page
-3. Enter all the fileds fname, lname, email address, passwrd, DOB
-4. Verify signup by login with the email address and passwrd that you entered inStep 3
+TestCase1: 
+Verify homepage
+	Steps to follow:
+	1. Launch chrome browser 
+	2. Launch the application in above browser
+	3. Verify the app logo, search field, search button, login link, signup link and footer section
 
 
-TestCase3: Verify logged-in UserName
+TestCase2: 
+Verify signup (java faker library)
 
-1. Launch Chrome
-2. Launch App https://www.speaklanguages.com/
-3. Login into app using valid logins
-4. Verify the username on the homepage, post login.
+	Steps to follow
+	1. Launch chrome browser 
+	2. Launch the application in above browser
+	3. Launch signup page
+	4. Enter all the fileds fname, lname, email address, password, DOB
+	5. Sign up with the application
+	6. Verify signup by login with the email address and password that you entered inStep 3
+
+
+TestCase3:
+Verify logged-in UserName
+
+	1. Launch Chrome
+	2. Launch the application in above browser
+	3. Login into app using valid logins
+	4. Verify the username on the homepage, post login.
 
