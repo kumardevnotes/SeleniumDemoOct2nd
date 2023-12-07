@@ -15,10 +15,11 @@ public class LoginPage {
 	By password_field = By.id("password_input");
 	By login_button = By.id("login_button");
 	
-	public void loginIntoApp(String emailAddress, String password) {
+	public void loginIntoApp(String emailAddress, String password) throws Exception {
 		driver.findElement(email_filed).sendKeys(emailAddress);
 		driver.findElement(password_field).sendKeys(password);
 		driver.findElement(login_button).click();
+		Thread.sleep(5000);
 	}
 
 }

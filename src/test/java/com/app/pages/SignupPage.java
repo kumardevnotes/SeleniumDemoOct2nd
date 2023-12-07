@@ -22,7 +22,10 @@ WebDriver driver =  null;
 	By month_dd_locator  = By.name("dob_month");
 	By year_dd_locator  = By.name("dob_year");
 	
-	public void signUpWithApp() throws Exception {
+	public String signUpWithApp() throws Exception {
+		
+		String emailAddress  = "johnlegend@gmail.com";
+		String password  = "pwd1122##";
 		
 		WebElement firstNameField  = driver.findElement(firstName_field);
 		firstNameField.sendKeys("John");
@@ -31,10 +34,10 @@ WebDriver driver =  null;
 		lastNameField.sendKeys("Legend");
 		
 		WebElement emailField  = driver.findElement(email_field);
-		emailField.sendKeys("johnlegend@gmail.com");
+		emailField.sendKeys(emailAddress);
 		
 		WebElement passwordField  = driver.findElement(password_field);
-		passwordField.sendKeys("pwd1122##");
+		passwordField.sendKeys(password);
 		
 		WebElement genderDropdownElement  = driver.findElement(gender_dd_locator);
 		Select genderDropdown =  new Select(genderDropdownElement);
@@ -56,6 +59,8 @@ WebDriver driver =  null;
 		signUpButton.click();
 		
 		Thread.sleep(6000);
+		
+		return emailAddress + "-" + password ;
 	
 	}
 

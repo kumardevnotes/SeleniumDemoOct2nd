@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.demo.TestNgDemo1">
+      <class name="com.app.tests.AppTests">
         <methods>
-          <include name="verifyApplaunchInChrome1"/>
-          <include name="verifyApplaunchInEdge1"/>
+          <include name="verifyLoggedInUsername"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.testng.demo.TestNgDemo1 -->
+      </class> <!-- com.app.tests.AppTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

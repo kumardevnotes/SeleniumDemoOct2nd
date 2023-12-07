@@ -18,6 +18,7 @@ public class HomePage {
 	By login_link =  By.linkText("Log in");
 	By signup_Link =  By.linkText("Sign up");
 	By privacyPolicy_Link =  By.linkText("Privacy policy");
+	By loggedInUser_Label =  By.xpath("//li[@id='nav_user']//a");
 	
 
 	public boolean isHomePageLoaded() {
@@ -42,6 +43,7 @@ public class HomePage {
 	}
 	
 	public String getLoggedInUserName() {
-		return "";
+		String userName  =  driver.findElement(loggedInUser_Label).getText().trim();
+		return userName ;
 	}
 }
