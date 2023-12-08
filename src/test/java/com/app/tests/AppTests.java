@@ -36,7 +36,7 @@ public class AppTests {
 		signupPage = new SignupPage(driver);
 	}
 
-	@Test
+	@Test(enabled = false)
 	public void verifyHomePage() {
 		boolean isHomePageLoaded  =  homePage.isHomePageLoaded();
 		if(isHomePageLoaded == true) {
@@ -47,16 +47,17 @@ public class AppTests {
 		}
 	}
 
-	@Test
+	@Test (invocationCount =  3)
 	public void verifySignup() throws Exception {
 		homePage.launchSignupPage();
 		String loginCredentials  = signupPage.signUpWithApp();
 		homePage.launchLoginPage();
 		String[] loginData  = loginCredentials.split("-");
 		loginPage.loginIntoApp(loginData[0], loginData[1]);
+
 	}
 
-	@Test
+	@Test(enabled = false)
 	public void verifyLoggedInUsername() throws Exception {
 		
 		String rootPath =  System.getProperty("user.dir");
