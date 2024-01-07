@@ -41,6 +41,7 @@ public class AppTests {
 		boolean isHomePageLoaded  =  homePage.isHomePageLoaded();
 		if(isHomePageLoaded == true) {
 			System.out.println("Homepage is verified without issues");
+			System.out.println("Test");
 		}
 		else {
 			Assert.fail("Something went wrong. Homepage is not verified");
